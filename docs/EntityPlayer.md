@@ -1651,7 +1651,8 @@ ___
 ### Replace·Costume·Sprite () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
 #### void ReplaceCostumeSprite ( [ItemConfigItem](ItemConfig_Item.md) Item, string SpritePath, int SpriteId ) {: .copyable aria-label='Functions' }
-
+???+ bug "Bugs"
+	The `SpriteId` parameter is ignored and will replace all layers of the item's costume. Usage of this function should be limited to costumes with only one spritesheet to avoid issues.
 ___
 ### Reset·Damage·Cooldown () {: aria-label='Functions' }
 [ ](#){: .alldlc .tooltip .badge }
